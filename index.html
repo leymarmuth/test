@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSAP MorphSVG Example</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="gsap-public/minified/gsap.min.js"></script>
+    <script src="gsap-public/minified/MorphSVGPlugin.js"></script>
+</head>
+<body>
+<div class="container">
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <!-- Initial shape -->
+        <path class="morph-shape" d="M50,50 Q75,25 100,50 Q125,75 150,50 Q175,75 150,100 Q125,125 100,100 Q75,125 50,100 Q25,75 50,50 Z" fill="#6C63FF"/>
+    </svg>
+    <button id="morphButton">Morph</button>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
